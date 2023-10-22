@@ -13,7 +13,7 @@ namespace Tortici
         public int Price;
         public string Valuta;
         
-        public Podpunkt(string name, int price, string valuta)
+        public Podpunkt(string name, int price, string valuta = "Р")
         {
             Name = name;
             Price = price;
